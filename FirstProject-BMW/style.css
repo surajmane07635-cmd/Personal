@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #A0A0A0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    background:linear-gradient(to right, #E5E5E5,#E4E4E4 );
+    height: 90%;
+    width: 95%;
+    border-radius: 30px;
+}
+nav{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 790;
+    margin-top: 45px;
+    margin-left: 35px;
+    align-items: center;
+    
+}
+#small{
+    font-size: 10px;
+    margin-right: 7px;
+    
+}
+.point1{
+    display: flex;
+    align-items: center;  
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 570;
+}
+.point2{
+    margin-left: 450px;
+    display: flex; 
+    font-size: 18px;
+    gap: 50px;
+    cursor: pointer;
+}
+.point3{
+    height: 30px;
+    width: 40px;
+    margin-left: 500px;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+.name{
+    position: relative;
+    font-size: 300px;
+    height: 50%;
+    width: 60%;
+    font-weight: 800;
+    margin-left: 490px;
+    margin-top: 10px;
+    font-family: "Roboto Condensed", sans-serif;
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(102, 87, 87);
+    background-clip: text;
+    background-image: url(crack-white.png);
+    background-size: cover;
+    background-position: center;
+    background-color: #838383;
+}
+#car{
+    position: absolute;
+    top: -200px;
+    left: 7%;
+    height: 140%;
+    width: 86%;
+}
+.tag{
+    margin-left: 720px;
+    margin-top: 130px;
+    font-size: 25px;
+    font-family: serif;
+}
+.button{
+    margin-left: 90px;
+    margin-top: 10px;
+    height: 60px;
+    width: 170px;
+    font-size: 25px;
+    border-radius: 10px;
+    border-color: #0a0909;
+    cursor: pointer;
+    background-color: #ef4444;
+    color: white;
+}
+.info{
+    color: #1a1a1a;
+    font-family: Arial Black;
+    position: absolute;
+    left: 130px;
+    top: 650px;
+    font-size: 22px;
+}
+.info p{
+    color: #6b6b6b;
+    font-size: 27px;
+    font-family: "Helvetica", sans-serif;
+    font-weight: 500;
+}
+.last{
+    display: flex;
+}
+#price{
+    margin-top: 10px;
+    position: absolute;
+    color: #1c3f94;
+}
+
+
