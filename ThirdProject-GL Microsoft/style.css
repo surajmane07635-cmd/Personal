@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+nav{
+    padding: 15px 80px;
+    height: 9.5%;
+    width: 100%;
+    background-color: #FFFFFF;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navleft{
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    font-size: 14px;
+    font-weight: 100;
+}
+.navleft{
+    cursor: pointer;
+}
+.navleft p:hover{
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-decoration-thickness: 2px;
+}
+#start{
+    margin-left: 20px;
+}
+.navright{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+    font-weight: 100;
+}
+.navright{
+    cursor: pointer;
+}
+.navlink:hover{
+    border-bottom: 2.5px solid black;
+    height: 25px;
+}
+.navlink{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
