@@ -54,3 +54,131 @@ nav{
     align-items: center;
     gap: 4px;
 }
+section{
+    height: 88%;
+    width: 100%;
+    background-color: red;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Hero-Desktop-Surface-Family-Pro-Snapdragon-13in-12Ed-Laptop-15in-8Ed-Black-Platinum-Homepage?&resMode=sharp2&op_usm=1.5,0.65,15,0&wid=3840&hei=2160&qlt=85&fit=constrain&dpr=on,2);
+    background-position: center;
+    background-size: cover;
+    padding: 170px 50px;
+    font-family: sans-serif;
+}
+section img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#new{
+    padding: 7px 16px;
+    background-color: #FFB900;
+    font-weight: 570;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.section-text h1{
+    font-weight: 550;
+    font-size: 37px;
+    margin-top: 10px;
+    color: #0E1726;
+    letter-spacing: 1px;
+}
+.section-text p{
+    margin-top: 18px;
+    font-size: 16px;
+    line-height: 25px;
+}
+#learn-more{
+    margin-top: 35px;
+    padding: 16px 18px;
+    background-color: #0078D4;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: #E5F1FD;
+    font-weight: 600;
+}
+.category{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    color: #004275;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 100px;
+}
+.categorybox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.categorybox img{
+    margin-bottom:8px;
+}
+.categorybox p{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2.5px;
+}
+.cards{
+    /* margin-top: 0px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 93%;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+.cardbox{
+    height: 75%;
+    width: 305px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+.cardbox{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+                 /* 6px 6px 10px rgba(255,255,255,0.06); */
+}
+#image1{
+    height: 180px;
+    width: 100%;
+    border-radius: 27px;
+    padding: 10px 10px;
+    object-fit: cover;
+}
+#learn{
+    margin-top: 35px;
+    padding: 13px 16px;
+    background-color: #0078D4;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: #E5F1FD;
+    font-weight: 550;
+    font-size: 14px;
+}
+.one{
+    padding: 0px 25px;
+}
+.one p{
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: 450;
+}
+.one h3{
+    font-weight: 500;
+    margin-top: 6px;
+    margin-bottom: 20px;
+}
+.two{
+    margin-top: 17px;
+    padding: 0px 25px;
+}
